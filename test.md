@@ -35,6 +35,7 @@ Same as above.
 **Actual Output**: Successfully executed.
 
 ####Test Case 3: pipe
+
 **Input** `ls -l | wc`
 **Expected Output**: Count the word of `ls -l` output.
 **Actual Output**: Successfully executed.
