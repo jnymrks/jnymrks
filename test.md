@@ -9,8 +9,10 @@ This document outlines the testing procedures and results for the Project 1 impl
 
 Each program was tested with various inputs to ensure correct functionality and performance. The tests aimed to cover typical, boundary, and error cases.
 
+---
+
 ### MyCopy Test
-In this test, I wrote a python program to randomly generates the string with ASCII letters. The size of the string was from 1KiB to 16MiB. The text files are in `Copy/test_txt` directory. 
+In this test, I wrote a python program to randomly generates the string with ASCII letters. The size of the string was from 1KiB to 16MiB. The text files and the python file are in `Copy/test_txt` directory. 
 In all cases, the output was correct and also for the edge cases(like text file with no letters), it worked well.
 
 ### ForkCopy Test
@@ -18,6 +20,8 @@ Same as above.
 
 ### PipeCopy Test
 Same as above.
+
+---
 
 ### Shell Test
 #### Test Case 1: ls
@@ -40,13 +44,17 @@ Same as above.
 **Expected Output**: Count the word of `ls -l` output.
 **Actual Output**: Successfully executed.
 
-### MergesortSingle Test
+---
 
-...
+### MergesortSingle Test
+In this test, I wrote a python program to randomly generates the integers within the required range. The length of the list was from 8 to 1000000. The text files and the python file are in `Sort/test_txt` directory. 
+In all cases, the output was correct and also for the edge cases(like text file with no letters), it worked well.
+
 
 ### MergesortMulti Test
+Same as above.
 
-...
+---
 
 ## Performance Analysis
 
