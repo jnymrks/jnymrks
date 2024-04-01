@@ -44,6 +44,7 @@ Same as above.
 **Expected Output**: Count the word of `ls -l` output.
 **Actual Output**: Successfully executed.
 
+I could only finish the basic requirement due to the lack of time. I should have started earlier to complete all the work given. That is one thing I regret about. Also I couldn't implement the part that we have "two or more pipes". I could only do with the command that has only one pipe. 
 ---
 
 ### MergesortSingle Test
@@ -65,4 +66,3 @@ The performance of `MergesortSingle` and `MergesortMulti` was analyzed by sortin
 ### Copy Program Performance
 
 The execution time of `MyCopy`, `ForkCopy`, and `PipeCopy` was compared across different buffer sizes and file sizes. The results are shown in the `report.pdf`.
-
