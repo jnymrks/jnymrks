@@ -26,11 +26,3 @@ This project focuses on designing and implementing systems programs using the C 
 
 - **plot_data.py (in both Copy and Sort directories)**: A Python script used for generating visualizations of the execution time of different program implementations under various configurations.
 - **test_txt (in both Copy and Sort directories)**: Contains test files and scripts used for generating input data for testing the file copy and sorting implementations.
-
-## Testing Documentation
-
-- **test.md**: Documents the test procedures, inputs, results, and observations for each component of the project, providing a comprehensive overview of the testing phase.
-
-## Performance Analysis
-
-- **report.pdf**: A detailed report presenting the performance analysis of the different implementations, including graphs and insights derived from the execution times under various conditions.
