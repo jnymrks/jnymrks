@@ -4,44 +4,40 @@
 
 This document outlines the testing procedures and results for the Project 1 implementation, including tests for `MyCopy`, `ForkCopy`, `PipeCopy`, `shell`, `MergesortSingle`, and `MergesortMulti` programs.
 
-## Test Environment
-
-- **Operating System**: Ubuntu 20.04 LTS
-- **Compiler**: GCC version 9.3.0
-- **Processor**: Intel Core i5-8250U
-- **Memory**: 8GB RAM
 
 ## Test Procedures
 
 Each program was tested with various inputs to ensure correct functionality and performance. The tests aimed to cover typical, boundary, and error cases.
 
 ### MyCopy Test
-
-#### Test Case 1: Standard Copy
-
-**Input**: `./MyCopy source.txt destination.txt`
-
-**Expected Output**: The contents of `source.txt` are copied to `destination.txt` successfully.
-
-**Actual Output**: 
-
-**Observations**: 
-
-#### Test Case 2: Large File Copy
-
-...
+In this test, I wrote a python program to randomly generates the string with ASCII letters. The size of the string was from 1KiB to 16MiB. The text files are in `Copy/test_txt` directory. 
+In all cases, the output was correct and also for the edge cases(like text file with no letters), it worked well.
 
 ### ForkCopy Test
-
-...
+Same as above.
 
 ### PipeCopy Test
-
-...
+Same as above.
 
 ### Shell Test
+#### Test Case 1: ls
 
-...
+**Input**: `ls`
+
+**Expected Output**: All the files in the directory is listed
+
+**Actual Output**: Successfully executed.
+
+#### Test Case 2: cd
+
+**Input**: `cd DIR_NAME`
+**Expected Output**: Move to the directory(`DIR_NAME`) 
+**Actual Output**: Successfully executed.
+
+####Test Case 3: |
+**Input** `ls -l | wc`
+**Expected Output**: Count the word of `ls -l` output.
+**Actual Output**: Successfully executed.
 
 ### MergesortSingle Test
 
@@ -55,13 +51,9 @@ Each program was tested with various inputs to ensure correct functionality and 
 
 ### Mergesort Performance
 
-The performance of `MergesortSingle` and `MergesortMulti` was analyzed by sorting arrays of various lengths with different numbers of threads. The results indicate ...
+The performance of `MergesortSingle` and `MergesortMulti` was analyzed by sorting arrays of various lengths with different numbers of threads. The results are shown in the `report.pdf`.
 
 ### Copy Program Performance
 
-The execution time of `MyCopy`, `ForkCopy`, and `PipeCopy` was compared across different buffer sizes and file sizes. The findings suggest ...
-
-## Conclusion
-
-The tests conducted as part of this project demonstrate that all implemented programs meet the specified requirements and perform as expected under various conditions. Notable observations include ...
+The execution time of `MyCopy`, `ForkCopy`, and `PipeCopy` was compared across different buffer sizes and file sizes. The results are shown in the `report.pdf`.
 
