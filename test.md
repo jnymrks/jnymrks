@@ -24,6 +24,7 @@ Same as above.
 ---
 
 ### Shell Test
+I could only finish the basic requirement due to the lack of time. I should have started earlier to complete all the work given. That is one thing I regret about. Also I couldn't implement the part that we have "two or more pipes". I could only do with the command that has only one pipe. 
 #### Test Case 1: ls
 
 **Input**: `ls`
@@ -44,7 +45,7 @@ Same as above.
 **Expected Output**: Count the word of `ls -l` output.
 **Actual Output**: Successfully executed.
 
-I could only finish the basic requirement due to the lack of time. I should have started earlier to complete all the work given. That is one thing I regret about. Also I couldn't implement the part that we have "two or more pipes". I could only do with the command that has only one pipe. 
+
 ---
 
 ### MergesortSingle Test
