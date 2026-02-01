@@ -1,9 +1,7 @@
-- 👋 Hi, I’m @jnymrks
-- 🤓 I just started learning coding
-- 👀 I’m interested in programming, CTF, cyber security
-- 🌱 I’m currently learning C
-- 💞️ I’m looking to collaborate on whatever I stucked on
-- 📫 How to reach me ... reach me if you can
+- 👋 Hi, I’m @jnymrks, a Japanese undergraduate student in China.
+- 👀 I’m interested in vehicle security, networking, and cybersecurity.
+- 🌱 I’m currently learning C++ and Python
+- 💞️ I’m looking to collaborate on whatever I stucked on.
 
 <!---
 jnymrks/jnymrks is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
