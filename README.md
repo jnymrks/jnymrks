@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @jnymrks, a Japanese undergraduate student in China.
-- 👀 I’m interested in vehicle security, networking, and cybersecurity.
+- 👀 I’m interested in vehicle security, AI for security.
 - 🌱 I’m currently learning C++ and Python
-- 💞️ I’m looking for an internship during 2026 summer.
+- 💞️ I’m looking for an internship during 2027 summer.
 - 💻 I'm building a home server within my private network.
 
 <!---
